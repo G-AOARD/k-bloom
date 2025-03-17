@@ -1,0 +1,1228 @@
+{
+    "P19_place_of_birth": {
+        "init_prompts": [
+            "<ENT0> was born in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Cynan Garwyn",
+                "Wales"
+            ],
+            [
+                "Phil Upchurch",
+                "Chicago"
+            ],
+            [
+                "Chiara Margarita Cozzolani",
+                "Milan"
+            ],
+            [
+                "Lennie Tristano",
+                "Chicago"
+            ],
+            [
+                "Hajime Mizoguchi",
+                "Tokyo"
+            ]
+        ],
+        "prompts": [
+        ]
+    },
+    "P20_place_of_death": {
+        "init_prompts": [
+            "<ENT0> died in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Henry Michell Wagner",
+                "Brighton"
+            ],
+            [
+                "Georg Scheffers",
+                "Berlin"
+            ],
+            [
+                "Max Ernst",
+                "Paris"
+            ],
+            [
+                "Timoleon",
+                "Syracuse"
+            ],
+            [
+                "Giorgio Levi Della Vida",
+                "Rome"
+            ]
+        ],
+        "prompts": [
+        ]
+    },
+    "P279_subclass_of": {
+        "init_prompts": [
+            "<ENT0> is a subclass of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "illiberal democracy",
+                "democracy"
+            ],
+            [
+                "city farm",
+                "farm"
+            ],
+            [
+                "United States Marine Corps Scout Sniper",
+                "sniper"
+            ],
+            [
+                "guk",
+                "soup"
+            ],
+            [
+                "salmorejo",
+                "soup"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P37_official_language": {
+        "init_prompts": [
+            "The official language of <ENT0> is <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Macau",
+                "Portuguese"
+            ],
+            [
+                "North American Free Trade Agreement",
+                "Spanish"
+            ],
+            [
+                "Kuusamo",
+                "Finnish"
+            ],
+            [
+                "East Timor",
+                "Portuguese"
+            ],
+            [
+                "Janakkala",
+                "Finnish"
+            ]
+        ],
+        "prompts": [
+        
+        ]
+    },
+    "P413_position_played_on_team__speciality": {
+        "init_prompts": [
+            "<ENT0> plays in <ENT1> position ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Vincenzo Italiano",
+                "midfielder"
+            ],
+            [
+                "John Stofa",
+                "quarterback"
+            ],
+            [
+                "Jason Campbell",
+                "quarterback"
+            ],
+            [
+                "Bettina Wiegmann",
+                "midfielder"
+            ],
+            [
+                "Angelo Crowell",
+                "linebacker"
+            ]
+        ],
+        "prompts": [
+        
+        ]
+    },
+    "P449_original_network": {
+        "init_prompts": [
+            "<ENT0> was originally aired on <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "The Imogene Coca Show",
+                "NBC"
+            ],
+            [
+                "The Ed Sullivan Show",
+                "CBS"
+            ],
+            [
+                "Arrested Development",
+                "Netflix"
+            ],
+            [
+                "Great Performances",
+                "PBS"
+            ],
+            [
+                "My Friend Tony",
+                "NBC"
+            ]
+        ],
+        "prompts": [
+        
+        ]
+    },
+    "P47_shares_border_with": {
+        "init_prompts": [
+            "<ENT0> shares border with <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Iowa",
+                "Illinois"
+            ],
+            [
+                "Baja California",
+                "California"
+            ],
+            [
+                "Callao",
+                "Lima"
+            ],
+            [
+                "Oregon",
+                "Idaho"
+            ],
+            [
+                "Saar Protectorate",
+                "Germany"
+            ]
+        ],
+        "prompts": [
+        
+        ]
+    },
+    "P138_named_after": {
+        "init_prompts": [
+            "<ENT0> is named after <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Liberal Mid-America Regional Airport",
+                "Liberal"
+            ],
+            [
+                "Reading railway station",
+                "Reading"
+            ],
+            [
+                "Centocelle Airport",
+                "Rome"
+            ],
+            [
+                "Norwich Cathedral",
+                "Trinity"
+            ],
+            [
+                "Mars",
+                "Mars"
+            ]
+        ],
+        "prompts": [
+        ]
+    },
+    "P364_original_language_of_film_or_TV_show": {
+        "init_prompts": [
+            "The original language of <ENT0> is <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Prairie Schooner",
+                "English"
+            ],
+            [
+                "The Fatal Eggs",
+                "Russian"
+            ],
+            [
+                "Khamosh",
+                "Hindi"
+            ],
+            [
+                "Rajnigandha",
+                "Hindi"
+            ],
+            [
+                "The Crimson Rivers",
+                "French"
+            ]
+        ],
+        "prompts": [
+        ]
+    },
+    "P463_member_of": {
+        "init_prompts": [
+            "<ENT0> is a member of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Terry Balsamo",
+                "Cold"
+            ],
+            [
+                "Germany",
+                "NATO"
+            ],
+            [
+                "Canadian Soccer Association",
+                "FIFA"
+            ],
+            [
+                "The Football Association",
+                "FIFA"
+            ],
+            [
+                "Football Association of Finland",
+                "FIFA"
+            ]
+        ],
+        "prompts": [
+        
+        ]
+    },
+    "P101_field_of_work": {
+        "init_prompts": [
+            "<ENT0> works in the field of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Henri Brocard",
+                "geometry"
+            ],
+            [
+                "Robert Bigelow",
+                "hotel"
+            ],
+            [
+                "Galileo Galilei",
+                "mathematics"
+            ],
+            [
+                "Nicolaus Copernicus",
+                "astronomy"
+            ],
+            [
+                "Ewald Hering",
+                "physiology"
+            ]
+        ],
+        "prompts": [
+           
+        ]
+    },
+    "P106_occupation": {
+        "init_prompts": [
+            "<ENT0> is a <ENT1> by profession ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Emily Barton",
+                "novelist"
+            ],
+            [
+                "Max Volmer",
+                "chemist"
+            ],
+            [
+                "Ernst Jaakson",
+                "diplomat"
+            ],
+            [
+                "Steve Swallow",
+                "composer"
+            ],
+            [
+                "John Ashburnham, 1st Baron Ashburnham",
+                "politician"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P527_has_part": {
+        "init_prompts": [
+            "<ENT0> consists of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "adenine",
+                "carbon"
+            ],
+            [
+                "paraffin wax",
+                "carbon"
+            ],
+            [
+                "vinyl chloride",
+                "carbon"
+            ],
+            [
+                "egg white",
+                "egg"
+            ],
+            [
+                "hydrochloric acid",
+                "hydrogen"
+            ]
+        ],
+        "prompts": [
+            
+        ]
+    },
+    "P530_diplomatic_relation": {
+        "init_prompts": [
+            "<ENT0> maintains diplomatic relations with <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "South Korea",
+                "Russia"
+            ],
+            [
+                "France",
+                "Serbia"
+            ],
+            [
+                "Cape Verde",
+                "Cuba"
+            ],
+            [
+                "United States of America",
+                "Argentina"
+            ],
+            [
+                "Australia",
+                "Belgium"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P176_manufacturer": {
+        "init_prompts": [
+            "<ENT0> is produced by <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Nissan 180SX",
+                "Nissan"
+            ],
+            [
+                "Fiat 4 HP",
+                "Fiat"
+            ],
+            [
+                "Alpine A108",
+                "Renault"
+            ],
+            [
+                "Lancia Gamma",
+                "Fiat"
+            ],
+            [
+                "Nokia N8",
+                "Nokia"
+            ]
+        ],
+        "prompts": [
+            
+        ]
+    },
+    "P27_country_of_citizenship": {
+        "init_prompts": [
+            "<ENT0> is <ENT1> citizen ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Maria Wetterstrand",
+                "Sweden"
+            ],
+            [
+                "Mel Charles",
+                "Wales"
+            ],
+            [
+                "Brenda Asnicar",
+                "Argentina"
+            ],
+            [
+                "Sachimi Iwao",
+                "Japan"
+            ],
+            [
+                "Thomas Ong",
+                "Singapore"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P407_language_of_work_or_name": {
+        "init_prompts": [
+            "<ENT0> was written in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Black Holes and Revelations",
+                "English"
+            ],
+            [
+                "The Eternal Idol",
+                "English"
+            ],
+            [
+                "Coup de Torchon",
+                "French"
+            ],
+            [
+                "A Marriage Proposal",
+                "Russian"
+            ],
+            [
+                "Oliver Twist",
+                "English"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P30_continent": {
+        "init_prompts": [
+            "<ENT0> is located in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Turgai River",
+                "Asia"
+            ],
+            [
+                "Achaean Range",
+                "Antarctica"
+            ],
+            [
+                "Hammer Point",
+                "Antarctica"
+            ],
+            [
+                "Enterprise Island",
+                "Antarctica"
+            ],
+            [
+                "Reeves Glacier",
+                "Antarctica"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P178_developer": {
+        "init_prompts": [
+            "<ENT0> is developed by <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Transaction Processing Facility",
+                "IBM"
+            ],
+            [
+                "Microsoft Office 2000",
+                "Microsoft"
+            ],
+            [
+                "Donkey Kong",
+                "Nintendo"
+            ],
+            [
+                "Mac OS X Lion",
+                "Apple"
+            ],
+            [
+                "Google Hangouts",
+                "Google"
+            ]
+        ],
+        "prompts": [
+          
+        ]
+    },
+    "P1376_capital_of": {
+        "init_prompts": [
+            "<ENT0> is the capital of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Dhaka",
+                "Bangladesh"
+            ],
+            [
+                "Monrovia",
+                "Liberia"
+            ],
+            [
+                "Brisbane",
+                "Queensland"
+            ],
+            [
+                "Hartford",
+                "Connecticut"
+            ],
+            [
+                "Arlon",
+                "Luxembourg"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P131_located_in_the_administrative_territorial_entity": {
+        "init_prompts": [
+            "<ENT0> is located in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Lake Bluff",
+                "Illinois"
+            ],
+            [
+                "Massachusetts Bay Transportation Authority",
+                "Boston"
+            ],
+            [
+                "Lakeridge Health Oshawa",
+                "Ontario"
+            ],
+            [
+                "Raft River Mountains",
+                "Utah"
+            ],
+            [
+                "Little Bear River",
+                "Utah"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P1412_languages_spoken,_written_or_signed": {
+        "init_prompts": [
+            "<ENT0> used to communicate in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Huangfu Mi",
+                "Chinese"
+            ],
+            [
+                "Giovanni Lindo Ferretti",
+                "Italian"
+            ],
+            [
+                "Heikki Siren",
+                "Finnish"
+            ],
+            [
+                "Keren Peles",
+                "Hebrew"
+            ],
+            [
+                "Aharon Zisling",
+                "Hebrew"
+            ]
+        ],
+        "prompts": [
+           
+        ]
+    },
+    "P108_employer": {
+        "init_prompts": [
+            "<ENT0> works for <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Scott Mills",
+                "BBC"
+            ],
+            [
+                "Armando Iannucci",
+                "BBC"
+            ],
+            [
+                "James Moir",
+                "BBC"
+            ],
+            [
+                "John Fellows Akers",
+                "IBM"
+            ],
+            [
+                "Ward Cunningham",
+                "Microsoft"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P136_genre": {
+        "init_prompts": [
+            "<ENT0> plays <ENT1> music ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Jack Parnell",
+                "jazz"
+            ],
+            [
+                "Garnett Brown",
+                "jazz"
+            ],
+            [
+                "Orphan Black",
+                "thriller"
+            ],
+            [
+                "Steve Nieve",
+                "opera"
+            ],
+            [
+                "Dennis Rea",
+                "jazz"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P17_country": {
+        "init_prompts": [
+            "<ENT0> is located in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Federal Palace of Switzerland",
+                "Switzerland"
+            ],
+            [
+                "2004 IAAF World Cross Country Championships",
+                "Belgium"
+            ],
+            [
+                "Askola",
+                "Finland"
+            ],
+            [
+                "Sanlih E-Television",
+                "Taiwan"
+            ],
+            [
+                "Chartered Professional Accountant",
+                "Canada"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P39_position_held": {
+        "init_prompts": [
+            "<ENT0> has the position of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Acacius of Caesarea",
+                "bishop"
+            ],
+            [
+                "Sylvester II",
+                "pope"
+            ],
+            [
+                "Sheila Dixon",
+                "mayor"
+            ],
+            [
+                "John E. Hines",
+                "bishop"
+            ],
+            [
+                "Liutprand of Cremona",
+                "bishop"
+            ]
+        ],
+        "prompts": [
+            
+        ]
+    },
+    "P264_record_label": {
+        "init_prompts": [
+            "<ENT0> is represented by music label <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "The Famous Flames",
+                "Federal"
+            ],
+            [
+                "Billy Ward and His Dominoes",
+                "Federal"
+            ],
+            [
+                "Buddy Holly",
+                "Coral"
+            ],
+            [
+                "Hank Ballard",
+                "Federal"
+            ],
+            [
+                "Harry James",
+                "Brunswick"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P276_location": {
+        "init_prompts": [
+            "<ENT0> is located in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Indie Memphis",
+                "Memphis"
+            ],
+            [
+                "Edmonton Journal",
+                "Edmonton"
+            ],
+            [
+                "Montreal Convention",
+                "Montreal"
+            ],
+            [
+                "Flying Pig Marathon",
+                "Cincinnati"
+            ],
+            [
+                "Basilica Cistern",
+                "Istanbul"
+            ]
+        ],
+        "prompts": [
+           
+        ]
+    },
+    "P937_work_location": {
+        "init_prompts": [
+            "<ENT0> used to work in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Ture Nerman",
+                "Stockholm"
+            ],
+            [
+                "David Salomons",
+                "London"
+            ],
+            [
+                "Javier de Burgos",
+                "Madrid"
+            ],
+            [
+                "Aldus Manutius",
+                "Venice"
+            ],
+            [
+                "Richard Brinsley Sheridan",
+                "London"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P140_religion": {
+        "init_prompts": [
+            "<ENT0> is affiliated with the <ENT1> religion ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Sumayyah bint Khayyat",
+                "Islam"
+            ],
+            [
+                "Sultan Satuq Bughra Khan",
+                "Islam"
+            ],
+            [
+                "Nawabs of Bengal and Murshidabad",
+                "Islam"
+            ],
+            [
+                "Bade Ghulam Ali Khan",
+                "Islam"
+            ],
+            [
+                "Wesleyan Methodist Church",
+                "Christianity"
+            ]
+        ],
+        "prompts": [
+          
+        ]
+    },
+    "P1303_instrument": {
+        "init_prompts": [
+            "<ENT0> plays <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Otis Spann",
+                "piano"
+            ],
+            [
+                "Julian Lennon",
+                "guitar"
+            ],
+            [
+                "Scott Klopfenstein",
+                "trumpet"
+            ],
+            [
+                "Tomaso Antonio Vitali",
+                "violin"
+            ],
+            [
+                "Ma Sicong",
+                "violin"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P127_owned_by": {
+        "init_prompts": [
+            "<ENT0> is owned by <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Revolution Analytics",
+                "Microsoft"
+            ],
+            [
+                "U-matic",
+                "Sony"
+            ],
+            [
+                "Google Contacts",
+                "Google"
+            ],
+            [
+                "Save-On-Foods Memorial Centre",
+                "Victoria"
+            ],
+            [
+                "Microsoft TechNet",
+                "Microsoft"
+            ]
+        ],
+        "prompts": [
+            
+        ]
+    },
+    "P103_native_language": {
+        "init_prompts": [
+            "The native language of <ENT0> is <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Eduardo Duhalde",
+                "Spanish"
+            ],
+            [
+                "Gabriel Hanotaux",
+                "French"
+            ],
+            [
+                "Ovid",
+                "Latin"
+            ],
+            [
+                "Denys Corbet",
+                "French"
+            ],
+            [
+                "Olga Medvedtseva",
+                "Russian"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P190_twinned_administrative_body": {
+        "init_prompts": [
+            "<ENT0> and <ENT1> are twin cities ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Accra",
+                "Chicago"
+            ],
+            [
+                "Seoul",
+                "Tokyo"
+            ],
+            [
+                "Rio de Janeiro",
+                "Jerusalem"
+            ],
+            [
+                "Vienna",
+                "Istanbul"
+            ],
+            [
+                "Busan",
+                "Istanbul"
+            ]
+        ],
+        "prompts": [
+            
+        ]
+    },
+    "P1001_applies_to_jurisdiction": {
+        "init_prompts": [
+            "<ENT0> is a legal term in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Speaker of the National Assembly of Pakistan",
+                "Pakistan"
+            ],
+            [
+                "Hamburg Police",
+                "Hamburg"
+            ],
+            [
+                "Indian Act",
+                "Canada"
+            ],
+            [
+                "Secretar\u00eda de Inteligencia",
+                "Argentina"
+            ],
+            [
+                "Reference re Secession of Quebec",
+                "Canada"
+            ]
+        ],
+        "prompts": [
+           
+        ]
+    },
+    "P31_instance_of": {
+        "init_prompts": [
+            "<ENT0> is a <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Imperial Service Order",
+                "award"
+            ],
+            [
+                "Antichrist Superstar",
+                "album"
+            ],
+            [
+                "Yota",
+                "trademark"
+            ],
+            [
+                "Heineken",
+                "brewery"
+            ],
+            [
+                "Malaysia Today",
+                "blog"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P495_country_of_origin": {
+        "init_prompts": [
+            "<ENT0> was created in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Beneteau",
+                "France"
+            ],
+            [
+                "Larb",
+                "Laos"
+            ],
+            [
+                "Tridev",
+                "India"
+            ],
+            [
+                "Golgo 13",
+                "Japan"
+            ],
+            [
+                "Crazed Fruit",
+                "Japan"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P159_headquarters_location": {
+        "init_prompts": [
+            "The headquarter of <ENT0> is in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Indian Space Research Organisation",
+                "Bangalore"
+            ],
+            [
+                "Liquor Control Board of Ontario",
+                "Toronto"
+            ],
+            [
+                "Telehouse Europe",
+                "London"
+            ],
+            [
+                "University of Kentucky",
+                "Lexington"
+            ],
+            [
+                "Fraser Institute",
+                "Vancouver"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P36_capital": {
+        "init_prompts": [
+            "The capital of <ENT0> is <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Onslow County",
+                "Jacksonville"
+            ],
+            [
+                "Bates County",
+                "Butler"
+            ],
+            [
+                "Kingdom of France",
+                "Paris"
+            ],
+            [
+                "Czechoslovakia",
+                "Prague"
+            ],
+            [
+                "Guernsey County",
+                "Cambridge"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P740_location_of_formation": {
+        "init_prompts": [
+            "<ENT0> was founded in <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Bee Gees",
+                "Manchester"
+            ],
+            [
+                "Filippa K",
+                "Sweden"
+            ],
+            [
+                "Beat Circus",
+                "Boston"
+            ],
+            [
+                "Alfaguara",
+                "Madrid"
+            ],
+            [
+                "The Qemists",
+                "Brighton"
+            ]
+        ],
+        "prompts": [
+
+        ]
+    },
+    "P361_part_of": {
+        "init_prompts": [
+            "<ENT0> is part of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "aquarium filter",
+                "aquarium"
+            ],
+            [
+                "Northern Crusades",
+                "Crusade"
+            ],
+            [
+                "North America",
+                "Earth"
+            ],
+            [
+                "Northern Range",
+                "Trinidad"
+            ],
+            [
+                "Post Office Protocol 3",
+                "email"
+            ]
+        ],
+        "prompts": [
+            
+        ]
+    }
+}

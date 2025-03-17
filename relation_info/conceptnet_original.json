@@ -1,0 +1,554 @@
+{
+    "AtLocation": {
+        "init_prompts": [
+            "<ENT1> is the location for <ENT0> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "flotation_device",
+                "boat"
+            ],
+            [
+                "water",
+                "soft_drink"
+            ],
+            [
+                "gear",
+                "car"
+            ],
+            [
+                "giraffes",
+                "africa"
+            ],
+            [
+                "trousers",
+                "suitcase"
+            ]
+        ],
+        "prompts": []
+    },
+    "CapableOf": {
+        "init_prompts": [
+            "Something that <ENT0> can typically do is <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "neighbor",
+                "fence_property"
+            ],
+            [
+                "cook",
+                "bread_filet"
+            ],
+            [
+                "plumbers",
+                "fix_faucets"
+            ],
+            [
+                "teachers",
+                "answer_questions"
+            ],
+            [
+                "criminals",
+                "case_joint"
+            ]
+        ],
+        "prompts": []
+    },
+    "Causes": {
+        "init_prompts": [
+            "It is typical for <ENT0> to cause <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "buying_hamburger",
+                "spending_money"
+            ],
+            [
+                "typing",
+                "communicating"
+            ],
+            [
+                "fighting_enemy",
+                "hopefully_victory"
+            ],
+            [
+                "entertaining_people",
+                "capturing_attention"
+            ],
+            [
+                "riding_bicycle",
+                "cramping"
+            ]
+        ],
+        "prompts": []
+    },
+    "CausesDesire": {
+        "init_prompts": [
+            "<ENT0> makes someone want <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "prom",
+                "dress_nice"
+            ],
+            [
+                "feeling_dirty",
+                "take_shower"
+            ],
+            [
+                "being_curious",
+                "open_gift"
+            ],
+            [
+                "gluttony",
+                "eat_quickly"
+            ],
+            [
+                "needing_things",
+                "run_errands"
+            ]
+        ],
+        "prompts": []
+    },
+    "CreatedBy": {
+        "init_prompts": [
+            "<ENT1> is a process or agent that creates <ENT0> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "bread",
+                "baker"
+            ],
+            [
+                "film",
+                "director"
+            ],
+            [
+                "pee",
+                "kidneys"
+            ],
+            [
+                "egg",
+                "hen"
+            ],
+            [
+                "song",
+                "composer"
+            ]
+        ],
+        "prompts": []
+    },
+    "DefinedAs": {
+        "init_prompts": [
+            "<ENT1> is a more explanatory version of <ENT0> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "history",
+                "past_events"
+            ],
+            [
+                "ice",
+                "frozen_water"
+            ],
+            [
+                "listen",
+                "receive_sound"
+            ],
+            [
+                "door",
+                "entrance"
+            ],
+            [
+                "health",
+                "body_condition"
+            ]
+        ],
+        "prompts": []
+    },
+    "Desires": {
+        "init_prompts": [
+            "<ENT1> is something that every <ENT0> desires ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "anarchists",
+                "free"
+            ],
+            [
+                "angry_person",
+                "vent"
+            ],
+            [
+                "animal",
+                "reproduce"
+            ],
+            [
+                "bee",
+                "flower"
+            ],
+            [
+                "kids",
+                "play_games"
+            ]
+        ],
+        "prompts": []
+    },
+    "HasA": {
+        "init_prompts": [
+            "Usually, we would expect <ENT0> to have <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "violins",
+                "strings"
+            ],
+            [
+                "actions",
+                "consequences"
+            ],
+            [
+                "dogs",
+                "fur"
+            ],
+            [
+                "car",
+                "wheels"
+            ],
+            [
+                "sports",
+                "rules"
+            ]
+        ],
+        "prompts": []
+    },
+    "HasFirstSubevent": {
+        "init_prompts": [
+            "<ENT0> is an event that begins with subevent <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "cook",
+                "wash_hands"
+            ],
+            [
+                "fight_enemy",
+                "get_weapon"
+            ],
+            [
+                "study",
+                "read"
+            ],
+            [
+                "sleep",
+                "close_eyes"
+            ],
+            [
+                "bathe",
+                "remove_clothes"
+            ]
+        ],
+        "prompts": []
+    },
+    "HasLastSubevent": {
+        "init_prompts": [
+            "<ENT0> is an event that concludes with subevent <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "analyse",
+                "make_conclusion"
+            ],
+            [
+                "bathe",
+                "get_dressed"
+            ],
+            [
+                "climb_mountain",
+                "reach_summit"
+            ],
+            [
+                "brush_teeth",
+                "rinse_mouth"
+            ],
+            [
+                "buy_hamburger",
+                "pay_money"
+            ]
+        ],
+        "prompts": []
+    },
+    "HasPrerequisite": {
+        "init_prompts": [
+            "If someone wants to <ENT0>, they need to <ENT1> first ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "analysing",
+                "thought"
+            ],
+            [
+                "write_program",
+                "design_program"
+            ],
+            [
+                "make_grow",
+                "stimulate"
+            ],
+            [
+                "hear_testimony",
+                "summon_witnesses"
+            ],
+            [
+                "typing",
+                "pressing_keys"
+            ]
+        ],
+        "prompts": []
+    },
+    "HasProperty": {
+        "init_prompts": [
+            "<ENT0> are <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "gun",
+                "dangerous"
+            ],
+            [
+                "pocket_notebook",
+                "small"
+            ],
+            [
+                "children",
+                "innocent"
+            ],
+            [
+                "alcohol",
+                "addictive"
+            ],
+            [
+                "milk",
+                "white"
+            ]
+        ],
+        "prompts": []
+    },
+    "HasSubEvent": {
+        "init_prompts": [
+            "<ENT1> happens as a subevent of <ENT0> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "agree_with",
+                "nodding"
+            ],
+            [
+                "sleeping",
+                "rejuvinate_body"
+            ],
+            [
+                "attend_class",
+                "gain_knowledge"
+            ],
+            [
+                "judge",
+                "gather_information"
+            ],
+            [
+                "play_sports",
+                "sweat"
+            ]
+        ],
+        "prompts": []
+    },
+    "IsA": {
+        "init_prompts": [
+            "<ENT0> is a subtype or a specific instance of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "cholangitis",
+                "inflammation"
+            ],
+            [
+                "rice_plant",
+                "cereal_plant"
+            ],
+            [
+                "polyploid_cell",
+                "noncancerous_cell"
+            ],
+            [
+                "minsk",
+                "city"
+            ],
+            [
+                "army_ant",
+                "ant"
+            ]
+        ],
+        "prompts": []
+    },
+    "MadeOf": {
+        "init_prompts": [
+            "<ENT0> is made of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "lens",
+                "glass"
+            ],
+            [
+                "brick",
+                "clay"
+            ],
+            [
+                "balloon",
+                "rubber"
+            ],
+            [
+                "cake",
+                "egg"
+            ],
+            [
+                "book",
+                "paper"
+            ]
+        ],
+        "prompts": []
+    },
+    "MotivatedByGoal": {
+        "init_prompts": [
+            "Someone does <ENT0> because they want to <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "bathe",
+                "become_clean"
+            ],
+            [
+                "sell",
+                "money"
+            ],
+            [
+                "find_job",
+                "earn_money"
+            ],
+            [
+                "serve_customers",
+                "stay_employed"
+            ],
+            [
+                "cook",
+                "eat"
+            ]
+        ],
+        "prompts": []
+    },
+    "PartOf": {
+        "init_prompts": [
+            "<ENT0> is a part of <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "egg_white",
+                "egg"
+            ],
+            [
+                "mountain_peak",
+                "mountain"
+            ],
+            [
+                "dead_sea",
+                "jordan"
+            ],
+            [
+                "scene",
+                "movie"
+            ],
+            [
+                "stuttgart",
+                "germany"
+            ]
+        ],
+        "prompts": []
+    },
+    "ReceivesAction": {
+        "init_prompts": [
+            "<ENT1> can be done to <ENT0> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "stringed_instrument",
+                "tuned"
+            ],
+            [
+                "sometimes_guiltly",
+                "convicted"
+            ],
+            [
+                "silk",
+                "dyed"
+            ],
+            [
+                "pills",
+                "taken_orally"
+            ],
+            [
+                "contracts",
+                "evaluated"
+            ]
+        ],
+        "prompts": []
+    },
+    "SymbolOf": {
+        "init_prompts": [
+            "<ENT0> symbolically represents <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "tux",
+                "linux"
+            ],
+            [
+                "giving_rose",
+                "love"
+            ],
+            [
+                "trophy",
+                "victory"
+            ]
+        ],
+        "prompts": []
+    },
+    "UsedFor": {
+        "init_prompts": [
+            "<ENT0> is used for <ENT1> ."
+        ],
+        "seed_ent_tuples": [
+            [
+                "bed",
+                "sleep"
+            ],
+            [
+                "arena",
+                "fight"
+            ],
+            [
+                "wing",
+                "fly"
+            ],
+            [
+                "airplane",
+                "transportation"
+            ],
+            [
+                "scissors",
+                "cut"
+            ]
+        ],
+        "prompts": []
+    }
+}
